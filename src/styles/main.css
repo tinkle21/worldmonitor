@@ -16240,6 +16240,7 @@ body.has-breaking-alert .panels-grid {
    Community Discussion Widget — Floating Pill
    ============================================================ */
 .community-widget {
+  display: none !important;
   position: fixed;
   bottom: 24px;
   right: 24px;
