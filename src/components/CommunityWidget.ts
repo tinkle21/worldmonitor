@@ -4,6 +4,7 @@ const DISMISSED_KEY = 'wm-community-dismissed';
 const DISCUSSION_URL = 'https://github.com/koala73/worldmonitor/discussions/94';
 
 export function mountCommunityWidget(): void {
+  return;
   if (localStorage.getItem(DISMISSED_KEY) === 'true') return;
   if (document.querySelector('.community-widget')) return;
 
